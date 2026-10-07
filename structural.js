@@ -64,7 +64,7 @@
                 btn.textContent = original;
                 btn.disabled = false;
                 show('<strong>Sorry, that did not send.</strong><p>Please try again, or email ' +
-                    '<a href="mailto:hello@ilo.net.au">hello@ilo.net.au</a> or ' +
+                    '<a href="mailto:structural@ilo.net.au">structural@ilo.net.au</a> or ' +
                     '<a href="https://wa.me/6285739888885" target="_blank" rel="noopener">WhatsApp us</a>.</p>', true);
             });
     });
