@@ -505,7 +505,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 btn.textContent = 'Sending…';
                 btn.disabled = true;
                 netlifySubmit(exitForm).then(() => {
-                    btn.textContent = '✓ Guide on its way!';
+                    btn.textContent = '✓ Thanks, we will be in touch';
                     btn.style.background = 'var(--color-success)';
                     setTimeout(() => exitPopup.classList.remove('active'), 2000);
                 }).catch(() => {
@@ -546,9 +546,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 btn.textContent = 'Sending…';
                 btn.disabled = true;
                 netlifySubmit(guideForm).then(() => {
-                    btn.textContent = '✓ Check your inbox!';
-                    btn.style.background = 'var(--color-success)';
-                    setTimeout(() => guideModal.classList.remove('active'), 2000);
+                    // Hand the guide over straight away (it is not emailed).
+                    const ready = document.createElement('div');
+                    ready.className = 'guide-ready';
+                    ready.style.textAlign = 'center';
+                    ready.innerHTML = '<p style="color:var(--color-text-primary);font-weight:600;margin-bottom:16px;">Thanks, your guide is ready.</p>' +
+                        '<a class="btn btn-primary btn-lg" href="/bali-villa-cost-guide-2026.pdf" target="_blank" rel="noopener">📄 Open the guide (PDF)</a>' +
+                        '<p style="font-size:0.8rem;color:var(--color-text-muted);margin-top:14px;">Questions? WhatsApp us on +62 857-3988-8885.</p>';
+                    guideForm.replaceWith(ready);
+                    ready.querySelector('a').focus();
                 }).catch(() => {
                     btn.textContent = '⚠ Failed — try again';
                     btn.disabled = false;

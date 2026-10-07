@@ -16,11 +16,6 @@ https://infinity-living-options.netlify.app/* https://www.ilo.net.au/:splat 301!
 /our-factory.html    /factory    301
 /lgs-integrations.html /lgs      301
 
-# --- Dead lead magnet (added 2026-07-13) ---
-# The link-in-bio "Free Cost Guide 2026" button points at a PDF that does not
-# exist yet (was a hard 404). Send visitors to the knowledge base until the real
-# PDF ships, then delete this line. 302 = temporary, so Google keeps the PDF URL.
-/bali-villa-cost-guide-2026.pdf  /knowledge-base  302
 
 # --- Clean URLs (added 2026-10-07) ---
 # Every page is canonical on its clean URL; 301 the .html form so Google
