@@ -21,3 +21,26 @@ https://infinity-living-options.netlify.app/* https://www.ilo.net.au/:splat 301!
 # exist yet (was a hard 404). Send visitors to the knowledge base until the real
 # PDF ships, then delete this line. 302 = temporary, so Google keeps the PDF URL.
 /bali-villa-cost-guide-2026.pdf  /knowledge-base  302
+
+# --- Clean URLs (added 2026-10-07) ---
+# Every page is canonical on its clean URL; 301 the .html form so Google
+# consolidates signals. Forced (!) because the .html file does exist.
+/index.html  /  301!
+/about.html  /about  301!
+/lgs.html  /lgs  301!
+/bali.html  /bali  301!
+/benefits.html  /benefits  301!
+/why-indonesia.html  /why-indonesia  301!
+/process.html  /process  301!
+/factory.html  /factory  301!
+/contact.html  /contact  301!
+/projects.html  /projects  301!
+/galleries.html  /galleries  301!
+/articles.html  /articles  301!
+/knowledge-base.html  /knowledge-base  301!
+/links.html  /links  301!
+/article-lgs-vs-traditional.html  /article-lgs-vs-traditional  301!
+/article-architecture-prefab.html  /article-architecture-prefab  301!
+/article-sustainability.html  /article-sustainability  301!
+/structural.html  /structural  301!
+/structural-thanks.html  /structural-thanks  301!

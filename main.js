@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     contactForm.reset();
                 }, 3000);
             }).catch(() => {
-                btn.textContent = '⚠ Failed — email simon@ilo.net.au';
+                btn.textContent = '⚠ Failed — email hello@ilo.net.au';
                 btn.disabled = false;
                 setTimeout(() => { btn.textContent = originalText; }, 5000);
             });
@@ -392,7 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (configField) configField.value = summary;
             if (waBtn) {
                 waBtn.href = 'https://wa.me/6285739888885?text=' + encodeURIComponent(
-                    'Hi Simon, I configured a build on the ILO website:\n\n' + summary +
+                    'Hi ILO, I configured a build on the ILO website:\n\n' + summary +
                     '\n\nPlease send me an exact quote.');
             }
         }

@@ -5,11 +5,11 @@
 ## Company Information
 
 - **Website**: [https://www.ilo.net.au](https://www.ilo.net.au)
-- **Email**: simon@ilo.net.au
+- **Email**: hello@ilo.net.au
 - **WhatsApp**: +62 857-3988-8885
 - **Location**: Bali, Indonesia (Factory in Java)
 - **Founded**: Bali, Indonesia
-- **Services**: Prefabricated modular light gauge steel construction
+- **Services**: Prefabricated modular light gauge steel construction; design-and-build villas; steel frame kits (supply or supply-and-erect) for builders and developers
 - **Service Area**: Indonesia-wide (Bali, Lombok, Jakarta, Java)
 
 ## Key Facts
@@ -27,25 +27,26 @@
 ## Core Pages
 
 - [Home](https://www.ilo.net.au/): Overview of prefab modular LGS construction services, cost calculator, testimonials, and FAQ
-- [What is LGS?](https://www.ilo.net.au/lgs.html): Complete technical guide to Light Gauge Steel construction — cold-formed steel framing, material specifications, wall/floor/roof systems, and MEP integration
-- [LGS Benefits](https://www.ilo.net.au/benefits.html): Detailed breakdown of why LGS outperforms traditional construction — speed, cost, earthquake resistance, sustainability, and climate durability
-- [About Us](https://www.ilo.net.au/about.html): Company story, values, and Indonesia real estate expertise
-- [Construction Process](https://www.ilo.net.au/process.html): Step-by-step LGS construction process from design to completion
-- [Our Factory](https://www.ilo.net.au/factory.html): Java-based manufacturing facility details and capabilities
-- [Prefab & Modular Homes in Bali](https://www.ilo.net.au/bali.html): ILO's Bali service page — prefab, modular and light gauge steel villas across Canggu, Ubud, Seminyak, Uluwatu, Sanur and Lombok; earthquake/tropical suitability, costs, and build times for Bali
-- [Why Build in Indonesia?](https://www.ilo.net.au/why-indonesia.html): Market analysis and reasons to invest in Indonesian construction
-- [Contact](https://www.ilo.net.au/contact.html): Get a free project quote or consultation
+- [What is LGS?](https://www.ilo.net.au/lgs): Complete technical guide to Light Gauge Steel construction — cold-formed steel framing, material specifications, wall/floor/roof systems, and MEP integration
+- [LGS Benefits](https://www.ilo.net.au/benefits): Detailed breakdown of why LGS outperforms traditional construction — speed, cost, earthquake resistance, sustainability, and climate durability
+- [About Us](https://www.ilo.net.au/about): Company story, values, and Indonesia real estate expertise
+- [Construction Process](https://www.ilo.net.au/process): Step-by-step LGS construction process from design to completion
+- [Our Factory](https://www.ilo.net.au/factory): Java-based manufacturing facility details and capabilities
+- [Prefab & Modular Homes in Bali](https://www.ilo.net.au/bali): ILO's Bali service page — prefab, modular and light gauge steel villas across Canggu, Ubud, Seminyak, Uluwatu, Sanur and Lombok; earthquake/tropical suitability, costs, and build times for Bali
+- [Why Build in Indonesia?](https://www.ilo.net.au/why-indonesia): Market analysis and reasons to invest in Indonesian construction
+- [Contact](https://www.ilo.net.au/contact): Get a free project quote or consultation
+- [Structural Kits for Builders](https://www.ilo.net.au/structural): Infinity Structural — light gauge steel frame kits for builders and developers in Bali and Lombok; supply only or supply-and-erect; single-storey kits from about Rp 660,000/m² ex-factory (11 kg/m² planning assumption); hybrid LGS + hot-rolled steel; 4-week reference factory lead time after deposit and approved design
 
 ## Articles
 
-- [LGS vs Traditional Block Work in Bali](https://www.ilo.net.au/article-lgs-vs-traditional.html): Cost, speed, and structural comparison of LGS vs concrete block construction
-- [Incorporating Prefab into Tropical Villas](https://www.ilo.net.au/article-architecture-prefab.html): How luxury Balinese architecture integrates factory-built modular components
-- [The Eco-Friendly Future of Real Estate](https://www.ilo.net.au/article-sustainability.html): Why sustainable LGS construction is becoming the standard across Indonesia
+- [LGS vs Traditional Block Work in Bali](https://www.ilo.net.au/article-lgs-vs-traditional): Cost, speed, and structural comparison of LGS vs concrete block construction
+- [Incorporating Prefab into Tropical Villas](https://www.ilo.net.au/article-architecture-prefab): How luxury Balinese architecture integrates factory-built modular components
+- [The Eco-Friendly Future of Real Estate](https://www.ilo.net.au/article-sustainability): Why sustainable LGS construction is becoming the standard across Indonesia
 
 ## Projects & Galleries
 
-- [Global Projects](https://www.ilo.net.au/projects.html): Portfolio of completed and ongoing LGS construction projects
-- [Photo Galleries](https://www.ilo.net.au/galleries.html): Visual documentation of LGS frames, villas, and construction progress
+- [Global Projects](https://www.ilo.net.au/projects): Portfolio of completed and ongoing LGS construction projects
+- [Photo Galleries](https://www.ilo.net.au/galleries): Visual documentation of LGS frames, villas, and construction progress
 
 ## Frequently Asked Questions
 
@@ -72,3 +73,6 @@ Yes. Infinity Living Options operates its own manufacturing facility in Java, In
 
 **Does ILO build prefab and modular homes in Bali?**
 Yes. Infinity Living Options is a Bali-based, factory-direct builder of prefab, modular and light gauge steel (LGS) villas, townhouses and commercial buildings. ILO builds across Bali — including Canggu, Pererenan, Ubud, Seminyak, Uluwatu and Sanur — as well as Lombok and the rest of Indonesia. Light gauge steel is especially well suited to Bali because galvanized steel is termite-proof and rot-proof in the tropical humidity, its flexible frames perform well in Bali's earthquake zone, and villas are built 2-3x faster so rental income starts sooner.
+
+**Does ILO sell steel frame kits to other builders?**
+Yes. Through Infinity Structural, ILO supplies engineered light gauge steel frame packages (wall panels, floor and roof trusses, fixings, erection drawings) to builders and developers in Bali and Lombok, either supply-only or supply-and-erect. A single-storey kit is about Rp 660,000 per m² of floor area ex-factory as a planning reference; two-storey, hybrid and installed packages are quoted per project. See https://www.ilo.net.au/structural
