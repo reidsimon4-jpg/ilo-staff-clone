@@ -1,0 +1,23 @@
+# Consolidate all SEO signals onto the canonical domain.
+# The Netlify subdomain served an identical copy of the site (duplicate content);
+# 301 it to www.ilo.net.au so Google/AI crawlers index one domain only.
+https://infinity-living-options.netlify.app/* https://www.ilo.net.au/:splat 301!
+
+# --- Legacy URL rescue (added 2026-07-13) ---
+# The pre-relaunch site used these URLs and Google still indexes them; they now
+# 404 with no redirect, so brand/referral searches land on dead pages (and a
+# stale +61 number). 301 each to its current equivalent to recover that traffic
+# and pass the old pages' authority forward. No file exists at these paths, so
+# no force (!) is needed.
+/lgs-benefits        /benefits   301
+/our-factory         /factory    301
+/lgs-integrations    /lgs        301
+/lgs-benefits.html   /benefits   301
+/our-factory.html    /factory    301
+/lgs-integrations.html /lgs      301
+
+# --- Dead lead magnet (added 2026-07-13) ---
+# The link-in-bio "Free Cost Guide 2026" button points at a PDF that does not
+# exist yet (was a hard 404). Send visitors to the knowledge base until the real
+# PDF ships, then delete this line. 302 = temporary, so Google keeps the PDF URL.
+/bali-villa-cost-guide-2026.pdf  /knowledge-base  302

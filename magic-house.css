@@ -1,0 +1,316 @@
+/* --- Magic 3D House Animation --- */
+.magic-scene {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    overflow: hidden;
+    /* Deep jungle twilight for a Bali vibe */
+    background: radial-gradient(circle at center, #064e3b 0%, #020617 100%);
+    position: relative;
+    border-radius: var(--radius-lg);
+    box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.8);
+}
+
+/* See It In Action Trigger Overlay */
+.magic-trigger-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(2, 6, 23, 0.7);
+    z-index: 10;
+    backdrop-filter: blur(4px);
+    transition: opacity var(--transition-base);
+}
+
+.magic-trigger-overlay.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.magic-house {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+}
+
+.magic-scene.active .magic-house {
+    animation: house-rotate 20s linear infinite;
+}
+
+.wall {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    /* Metallic LGS Studs (C-Sections) via repeating gradient */
+    background: repeating-linear-gradient(to right,
+            transparent,
+            transparent 36px,
+            #64748b 36px,
+            #cbd5e1 38px,
+            #94a3b8 40px);
+    /* Top and Bottom Tracks */
+    border-top: 5px solid #cbd5e1;
+    border-bottom: 5px solid #cbd5e1;
+    /* Corner Studs */
+    border-left: 5px solid #cbd5e1;
+    border-right: 5px solid #cbd5e1;
+    backface-visibility: visible;
+    bottom: 0;
+    opacity: 0;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.magic-scene.active .wall.front {
+    transform: translateZ(100px);
+    animation: assemble-front 4s ease-out forwards;
+}
+
+.magic-scene.active .wall.back {
+    transform: rotateY(180deg) translateZ(100px);
+    animation: assemble-back 4s ease-out forwards;
+}
+
+.magic-scene.active .wall.left {
+    transform: rotateY(-90deg) translateZ(100px);
+    animation: assemble-left 4s ease-out forwards;
+}
+
+.magic-scene.active .wall.right {
+    transform: rotateY(90deg) translateZ(100px);
+    animation: assemble-right 4s ease-out forwards;
+}
+
+.roof {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    top: -80px;
+    /* Create a triangle for the roof panel */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    /* Truss diagonals representing LGS cross-bracing */
+    background:
+        repeating-linear-gradient(45deg,
+            transparent,
+            transparent 15px,
+            #64748b 15px,
+            #cbd5e1 17px,
+            #94a3b8 19px),
+        repeating-linear-gradient(-45deg,
+            transparent,
+            transparent 15px,
+            #64748b 15px,
+            #cbd5e1 17px,
+            #94a3b8 19px);
+    border-bottom: 5px solid #cbd5e1;
+    /* Bottom truss chord */
+    opacity: 0;
+}
+
+.magic-scene.active .roof.front {
+    transform: translateZ(100px) rotateX(30deg);
+    transform-origin: bottom;
+    animation: assemble-roof-front 4s ease-out 1s forwards;
+}
+
+.magic-scene.active .roof.back {
+    transform: rotateY(180deg) translateZ(100px) rotateX(30deg);
+    transform-origin: bottom;
+    animation: assemble-roof-back 4s ease-out 1s forwards;
+}
+
+.magic-scene.active .roof.left {
+    transform: rotateY(-90deg) translateZ(100px) rotateX(30deg);
+    transform-origin: bottom;
+    animation: assemble-roof-left 4s ease-out 1s forwards;
+}
+
+.magic-scene.active .roof.right {
+    transform: rotateY(90deg) translateZ(100px) rotateX(30deg);
+    transform-origin: bottom;
+    animation: assemble-roof-right 4s ease-out 1s forwards;
+}
+
+.floor {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    /* Bali-style wooden deck foundation */
+    background: repeating-linear-gradient(to right,
+            #78350f,
+            #78350f 18px,
+            #451a03 19px,
+            #451a03 20px);
+    bottom: 0;
+    transform: rotateX(90deg);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
+    border: 2px solid #451a03;
+}
+
+.beam {
+    position: absolute;
+    /* Metallic gradients for heavy structural corner columns */
+    background: linear-gradient(to right, #64748b, #f8fafc, #64748b);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    opacity: 0;
+}
+
+.beam.v {
+    width: 4px;
+    height: 150px;
+    bottom: 0;
+}
+
+.beam.h {
+    height: 4px;
+    width: 200px;
+}
+
+/* Positions */
+.magic-scene.active .beam.v.fl {
+    transform: translateZ(100px);
+    left: 0;
+    animation: beam-rise 2s ease-out forwards;
+}
+
+.magic-scene.active .beam.v.fr {
+    transform: translateZ(100px);
+    right: 0;
+    animation: beam-rise 2s ease-out 0.2s forwards;
+}
+
+.magic-scene.active .beam.v.bl {
+    transform: translateZ(-100px);
+    left: 0;
+    animation: beam-rise 2s ease-out 0.4s forwards;
+}
+
+.magic-scene.active .beam.v.br {
+    transform: translateZ(-100px);
+    right: 0;
+    animation: beam-rise 2s ease-out 0.6s forwards;
+}
+
+@keyframes house-rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes beam-rise {
+    0% {
+        transform: translateY(200px) translateZ(var(--z, 0));
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0) translateZ(var(--z, 0));
+        opacity: 1;
+    }
+}
+
+@keyframes assemble-front {
+    0% {
+        transform: translateZ(300px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateZ(100px);
+        opacity: 1;
+    }
+}
+
+@keyframes assemble-back {
+    0% {
+        transform: rotateY(180deg) translateZ(300px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateY(180deg) translateZ(100px);
+        opacity: 1;
+    }
+}
+
+@keyframes assemble-left {
+    0% {
+        transform: rotateY(-90deg) translateZ(300px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateY(-90deg) translateZ(100px);
+        opacity: 1;
+    }
+}
+
+@keyframes assemble-right {
+    0% {
+        transform: rotateY(90deg) translateZ(300px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateY(90deg) translateZ(100px);
+        opacity: 1;
+    }
+}
+
+@keyframes assemble-roof-front {
+    0% {
+        transform: translateZ(100px) rotateX(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateZ(100px) rotateX(30deg);
+        opacity: 1;
+    }
+}
+
+@keyframes assemble-roof-back {
+    0% {
+        transform: rotateY(180deg) translateZ(100px) rotateX(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateY(180deg) translateZ(100px) rotateX(30deg);
+        opacity: 1;
+    }
+}
+
+@keyframes assemble-roof-left {
+    0% {
+        transform: rotateY(-90deg) translateZ(100px) rotateX(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateY(-90deg) translateZ(100px) rotateX(30deg);
+        opacity: 1;
+    }
+}
+
+@keyframes assemble-roof-right {
+    0% {
+        transform: rotateY(90deg) translateZ(100px) rotateX(90deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: rotateY(90deg) translateZ(100px) rotateX(30deg);
+        opacity: 1;
+    }
+}
