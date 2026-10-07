@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             body
         }).then(res => {
             if (!res.ok) throw new Error('Netlify form POST failed: ' + res.status);
+            if (window.iloTrack) window.iloTrack('generate_lead', { form_name: form.getAttribute('name') || 'unknown' });
             return res;
         });
     }

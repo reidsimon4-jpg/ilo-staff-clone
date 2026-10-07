@@ -58,7 +58,7 @@
                 show('<strong>Thanks, your enquiry is in.</strong><p>Our project team will reply by email or WhatsApp. ' +
                     'To speed things up, you can also message us now on ' +
                     '<a href="https://wa.me/6285739888885" target="_blank" rel="noopener">WhatsApp</a>.</p>', false);
-                try { window.dataLayer = window.dataLayer || []; window.dataLayer.push({ event: 'structural_enquiry' }); } catch (e) { }
+                if (window.iloTrack) window.iloTrack('generate_lead', { form_name: 'structural-enquiry' });
             })
             .catch(() => {
                 btn.textContent = original;
