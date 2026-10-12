@@ -15,3 +15,7 @@ Next: backlog item 4 (article-villa-cost-bali.html, new article).
 2026-10-11: Backlog item 4 done. New article on steel frame villa cost by build stage (about 1,030 words) with FAQ and FAQPage schema; linked from articles.html.
 Files: article-villa-cost-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 5 (article-earthquake-bali.html, new article).
+
+2026-10-12: Backlog item 5 done. New article on steel frame vs concrete in Bali's earthquake zone (about 1,000 words) with FAQ and FAQPage schema; linked from articles.html.
+Files: article-earthquake-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 6 (article-frame-kit-package.html, new article).
