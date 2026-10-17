@@ -23,3 +23,7 @@ Next: backlog item 6 (article-frame-kit-package.html, new article).
 2026-10-13: Backlog item 6 done. New article on what a light gauge steel frame kit package includes (about 930 words) with FAQ and FAQPage schema; linked from articles.html.
 Files: article-frame-kit-package.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 7 (baja-ringan-bali.html, Indonesian page).
+
+2026-10-17: Backlog item 7 done. New Indonesian page on light gauge steel villas in Bali, with hreflang both ways and a language link in each hero; added to sitemap and llms.txt.
+Files: baja-ringan-bali.html, bali.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 8 (rangka-baja-ringan-kontraktor.html, Indonesian builders page).
