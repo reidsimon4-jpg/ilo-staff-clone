@@ -27,3 +27,7 @@ Next: backlog item 7 (baja-ringan-bali.html, Indonesian page).
 2026-10-17: Backlog item 7 done. New Indonesian page on light gauge steel villas in Bali, with hreflang both ways and a language link in each hero; added to sitemap and llms.txt.
 Files: baja-ringan-bali.html, bali.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 8 (rangka-baja-ringan-kontraktor.html, Indonesian builders page).
+
+2026-10-18: Backlog item 8 done. New Indonesian page for builders (frame kit scope, planning price, FAQ with FAQPage schema), with hreflang both ways with /structural and a language link in each hero; added to sitemap and llms.txt.
+Files: rangka-baja-ringan-kontraktor.html, structural.html, baja-ringan-bali.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 9 (article-tropical-durability.html, new article).
