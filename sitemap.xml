@@ -103,6 +103,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.ilo.net.au/article-tropical-durability</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.ilo.net.au/projects</loc>
     <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>

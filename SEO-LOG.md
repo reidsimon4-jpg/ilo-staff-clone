@@ -31,3 +31,7 @@ Next: backlog item 8 (rangka-baja-ringan-kontraktor.html, Indonesian builders pa
 2026-10-18: Backlog item 8 done. New Indonesian page for builders (frame kit scope, planning price, FAQ with FAQPage schema), with hreflang both ways with /structural and a language link in each hero; added to sitemap and llms.txt.
 Files: rangka-baja-ringan-kontraktor.html, structural.html, baja-ringan-bali.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 9 (article-tropical-durability.html, new article).
+
+2026-10-19: Backlog item 9 done. New article on termites, humidity and rust in the tropics (about 960 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt.
+Files: article-tropical-durability.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 10 (article-build-timeline.html, new article).
