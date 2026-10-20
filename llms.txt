@@ -33,15 +33,22 @@
 - [Construction Process](https://www.ilo.net.au/process): Step-by-step LGS construction process from design to completion
 - [Our Factory](https://www.ilo.net.au/factory): Java-based manufacturing facility details and capabilities
 - [Prefab & Modular Homes in Bali](https://www.ilo.net.au/bali): ILO's Bali service page — prefab, modular and light gauge steel villas across Canggu, Ubud, Seminyak, Uluwatu, Sanur and Lombok; earthquake/tropical suitability, costs, and build times for Bali
+- [Konstruksi Baja Ringan untuk Villa di Bali](https://www.ilo.net.au/baja-ringan-bali): Indonesian-language version of the Bali page — baja ringan villas, pricing by build stage, earthquake and termite resistance, FAQ
 - [Why Build in Indonesia?](https://www.ilo.net.au/why-indonesia): Market analysis and reasons to invest in Indonesian construction
 - [Contact](https://www.ilo.net.au/contact): Get a free project quote or consultation
 - [Structural Kits for Builders](https://www.ilo.net.au/structural): Infinity Structural — light gauge steel frame kits for builders and developers in Bali and Lombok; supply only or supply-and-erect; single-storey kits from about Rp 660,000/m² ex-factory (11 kg/m² planning assumption); hybrid LGS + hot-rolled steel; 4-week reference factory lead time after deposit and approved design; enquiries: structural@ilo.net.au
+- [Rangka Baja Ringan untuk Kontraktor](https://www.ilo.net.au/rangka-baja-ringan-kontraktor): Indonesian-language version of the Structural Kits page — frame kit scope (supply or supply and erect), planning price, FAQ; enquiries to structural@ilo.net.au
 
 ## Articles
 
 - [LGS vs Traditional Block Work in Bali](https://www.ilo.net.au/article-lgs-vs-traditional): Cost, speed, and structural comparison of LGS vs concrete block construction
 - [Incorporating Prefab into Tropical Villas](https://www.ilo.net.au/article-architecture-prefab): How luxury Balinese architecture integrates factory-built modular components
 - [The Eco-Friendly Future of Real Estate](https://www.ilo.net.au/article-sustainability): Why sustainable LGS construction is becoming the standard across Indonesia
+- [How Much Does a Steel Frame Villa Cost in Bali?](https://www.ilo.net.au/article-villa-cost-bali): Published price tiers by build stage (frame and roof, lockup shell, turnkey) explained in plain words
+- [Steel Frame vs Concrete in Bali's Earthquake Zone](https://www.ilo.net.au/article-earthquake-bali): Why a light, ductile steel frame attracts lower earthquake forces than heavy concrete, and what good design still needs
+- [Frame Kits for Builders: What an LGS Package Includes](https://www.ilo.net.au/article-frame-kit-package): What a light gauge steel frame kit covers, what it leaves out, and what builders should confirm before comparing quotes
+- [Termites, Humidity and Rust: Steel Frames in the Tropics](https://www.ilo.net.au/article-tropical-durability): How a galvanised steel frame handles termites, humidity and rust in Bali, and where it still needs care
+- [From Factory to Keys: The ILO Build Timeline](https://www.ilo.net.au/article-build-timeline): The eight steps of an ILO steel frame build, from consultation and design to factory, transport, site assembly and handover
 
 ## Projects & Galleries
 
