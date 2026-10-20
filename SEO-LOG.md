@@ -35,3 +35,7 @@ Next: backlog item 9 (article-tropical-durability.html, new article).
 2026-10-19: Backlog item 9 done. New article on termites, humidity and rust in the tropics (about 960 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt.
 Files: article-tropical-durability.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 10 (article-build-timeline.html, new article).
+
+2026-10-20: Backlog item 10 done. New article on the ILO build timeline (eight steps from consultation to handover) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt.
+Files: article-build-timeline.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 11 (add FAQ questions to bali.html and structural.html).
