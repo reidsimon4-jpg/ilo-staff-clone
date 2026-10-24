@@ -39,3 +39,7 @@ Next: backlog item 10 (article-build-timeline.html, new article).
 2026-10-20: Backlog item 10 done. New article on the ILO build timeline (eight steps from consultation to handover) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt.
 Files: article-build-timeline.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 11 (add FAQ questions to bali.html and structural.html).
+
+2026-10-24: Backlog item 11 done. Added 3 new FAQ questions (with FAQPage schema) to bali.html (cost by build stage, permits, foundation overlap) and 3 to structural.html (where frames are made, supply vs supply-and-erect, hybrid steel). Only facts already on the site.
+Files: bali.html, structural.html, SEO-LOG.md
+Next: backlog item 12 (review titles and meta descriptions site-wide).
