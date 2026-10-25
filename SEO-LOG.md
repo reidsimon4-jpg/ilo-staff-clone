@@ -43,3 +43,7 @@ Next: backlog item 11 (add FAQ questions to bali.html and structural.html).
 2026-10-24: Backlog item 11 done. Added 3 new FAQ questions (with FAQPage schema) to bali.html (cost by build stage, permits, foundation overlap) and 3 to structural.html (where frames are made, supply vs supply-and-erect, hybrid steel). Only facts already on the site.
 Files: bali.html, structural.html, SEO-LOG.md
 Next: backlog item 12 (review titles and meta descriptions site-wide).
+
+2026-10-25: Backlog item 12 done. Shortened over-length titles (9 pages) and meta descriptions (bali, index, galleries, structural, why-indonesia) to under 60/160 characters, keeping target keywords.
+Files: bali.html, benefits.html, factory.html, galleries.html, index.html, lgs.html, process.html, structural.html, why-indonesia.html, SEO-LOG.md
+Next: backlog item 13 (image alt text and lazy loading).
