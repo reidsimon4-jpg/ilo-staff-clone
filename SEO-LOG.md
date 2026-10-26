@@ -47,3 +47,7 @@ Next: backlog item 12 (review titles and meta descriptions site-wide).
 2026-10-25: Backlog item 12 done. Shortened over-length titles (9 pages) and meta descriptions (bali, index, galleries, structural, why-indonesia) to under 60/160 characters, keeping target keywords.
 Files: bali.html, benefits.html, factory.html, galleries.html, index.html, lgs.html, process.html, structural.html, why-indonesia.html, SEO-LOG.md
 Next: backlog item 13 (image alt text and lazy loading).
+
+2026-10-26: Backlog item 13 done. All images already had alt text. Added loading="lazy" to footer logos site-wide and three below-the-fold gallery images; left hero and nav images eager.
+Files: footer logos in about, article-*, articles, galleries, index, projects; galleries.html; SEO-LOG.md
+Next: backlog item 14 (alternate new article / older-page improvement pass).
