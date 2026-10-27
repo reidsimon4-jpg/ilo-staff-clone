@@ -51,3 +51,7 @@ Next: backlog item 13 (image alt text and lazy loading).
 2026-10-26: Backlog item 13 done. All images already had alt text. Added loading="lazy" to footer logos site-wide and three below-the-fold gallery images; left hero and nav images eager.
 Files: footer logos in about, article-*, articles, galleries, index, projects; galleries.html; SEO-LOG.md
 Next: backlog item 14 (alternate new article / older-page improvement pass).
+
+2026-10-27: Backlog item 14(a) done. New buyer-guide article "How to choose a villa builder in Bali: 8 questions" (about 960 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Topic picked from search results on Bali villa buyer questions (permits, builder checks).
+Files: article-choose-villa-builder-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 14(b) (improvement pass on an older page: internal links, headings, FAQ).
