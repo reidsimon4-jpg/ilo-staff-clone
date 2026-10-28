@@ -55,3 +55,7 @@ Next: backlog item 14 (alternate new article / older-page improvement pass).
 2026-10-27: Backlog item 14(a) done. New buyer-guide article "How to choose a villa builder in Bali: 8 questions" (about 960 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Topic picked from search results on Bali villa buyer questions (permits, builder checks).
 Files: article-choose-villa-builder-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 14(b) (improvement pass on an older page: internal links, headings, FAQ).
+
+2026-10-28: Backlog item 14(b) done. Older-page pass on /lgs: added a 5-question FAQ with FAQPage schema and links to four related articles (it linked to none before). Only facts already on the site.
+Files: lgs.html, sitemap.xml, SEO-LOG.md
+Next: backlog item 14(a) (new article on a topic buyers or builders search for).
