@@ -67,3 +67,7 @@ Next: backlog item 14(b) (improvement pass on an older page, e.g. benefits.html 
 2026-10-31: Backlog item 14(b) done. Older-page pass on /benefits: added a Related Reading section linking to six articles (it linked to none before) and fixed the wrong breadcrumb and page URLs in its schema.
 Files: benefits.html, SEO-LOG.md
 Next: backlog item 14(a) (new article on a topic buyers or builders search for).
+
+2026-11-01: Backlog item 14(a) done. New developer article "Steel Frames for Multi-Villa Developments in Bali" (about 850 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article covered villa complexes, townhouses or resorts.
+Files: article-multi-villa-development-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 14(b) (improvement pass on an older page, e.g. why-indonesia.html or knowledge-base.html).
