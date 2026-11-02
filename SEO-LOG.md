@@ -71,3 +71,7 @@ Next: backlog item 14(a) (new article on a topic buyers or builders search for).
 2026-11-01: Backlog item 14(a) done. New developer article "Steel Frames for Multi-Villa Developments in Bali" (about 850 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article covered villa complexes, townhouses or resorts.
 Files: article-multi-villa-development-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 14(b) (improvement pass on an older page, e.g. why-indonesia.html or knowledge-base.html).
+
+2026-11-02: Backlog item 14(b) done. Older-page pass on /why-indonesia: added a 4-question FAQ with FAQPage schema and a Related Reading section linking to six articles (it linked to none before). Only facts already on the site.
+Files: why-indonesia.html, sitemap.xml, SEO-LOG.md
+Next: backlog item 14(a) (new article on a topic buyers or builders search for).
