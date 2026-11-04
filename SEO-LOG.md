@@ -79,3 +79,7 @@ Next: backlog item 14(a) (new article on a topic buyers or builders search for).
 2026-11-03: Backlog item 14(a) done. New investor article "Building a Bali Rental Villa with Steel Frame" (about 920 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article spoke to villa investors buying to rent. Only facts already on the site.
 Files: article-rental-villa-investor-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 14(b) (improvement pass on an older page, e.g. knowledge-base.html: its schema URL uses .html and it has no FAQ schema or article links).
+
+2026-11-04: Backlog item 14(b) done. Older-page pass on /knowledge-base: added FAQPage schema covering its 9 existing questions, fixed the schema URL (.html removed), and added a Related Reading section linking to six articles (it linked to none before). Only facts already on the page.
+Files: knowledge-base.html, sitemap.xml, SEO-LOG.md
+Next: backlog item 14(a) (new article on a topic buyers or builders search for).
