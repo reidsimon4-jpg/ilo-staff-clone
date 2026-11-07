@@ -91,3 +91,7 @@ Next: backlog item 14(b) (improvement pass on an older page, e.g. about.html, fa
 2026-11-06: Backlog item 14(b) done. Older-page pass on /factory: added a 4-question FAQ with FAQPage schema and a Related Reading section linking to four articles (it linked to none before). Only facts already on the site. Note: the first run today wrongly redid item 1 on a stale local branch; that was discarded.
 Files: factory.html, sitemap.xml, SEO-LOG.md
 Next: backlog item 14(a) (new article on a topic buyers or builders search for).
+
+2026-11-07: Backlog item 14(a) done. New article "Steel Roof Trusses for Bali Villas" (about 900 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article covered the roof frame (hip, gable, dutch gable, metal sheet or tile). Only facts already on the site.
+Files: article-steel-roof-trusses-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 14(b) (improvement pass on an older page, e.g. about.html or process.html).
