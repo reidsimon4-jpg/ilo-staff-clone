@@ -115,3 +115,7 @@ Next: backlog item 14(b) (improvement pass on an older page, e.g. projects.html 
 2026-11-12: Backlog item 14(b) done. Older-page pass on /projects: added a 4-question FAQ with FAQPage schema and a Related Reading section linking to four articles (it linked to none before), and removed .html from its schema URL. Only facts already on the site. Note: the run again started from a stale local branch and redid item 1; that was discarded.
 Files: projects.html, SEO-LOG.md
 Next: backlog item 14(a) (new article on a topic buyers or builders search for).
+
+2026-11-13: Backlog item 14(a) done. New article "Steel Frame for Cafés, Retail and Small Hotels in Bali" (about 980 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article covered commercial or hospitality buildings. Only facts already on the site.
+Files: article-commercial-hospitality-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 14(b) (improvement pass on an older page, e.g. galleries.html or links.html).
