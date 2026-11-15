@@ -123,3 +123,7 @@ Next: backlog item 14(b) (improvement pass on an older page, e.g. galleries.html
 2026-11-14: Backlog item 14(b) done. Older-page pass on /galleries: added a 5-question FAQ with FAQPage schema and a Related Reading section linking to four articles (it linked to none before), and removed .html from its schema URL. Only facts already on the site.
 Files: galleries.html, sitemap.xml, SEO-LOG.md
 Next: backlog item 14(a) (new article on a topic buyers or builders search for).
+
+2026-11-15: Backlog item 14(a) done. New article "Wiring, Plumbing and Air-Con in a Steel Frame Villa" (about 900 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article covered electrical, plumbing and air-conditioning in a steel frame. Only facts already on the site.
+Files: article-services-steel-frame-villa-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or contact.html).
