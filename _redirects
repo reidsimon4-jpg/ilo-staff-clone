@@ -3,6 +3,12 @@
 # 301 it to www.ilo.net.au so Google/AI crawlers index one domain only.
 https://infinity-living-options.netlify.app/* https://www.ilo.net.au/:splat 301!
 
+# Internal files: never serve these to the public (the files stay in the repo)
+/PROJECT.md  /404.html  404!
+/_original-stock-backup/*  /404.html  404!
+/netlify/*  /404.html  404!
+/chimney-removal.mp4  /404.html  404!
+
 # --- Legacy URL rescue (added 2026-07-13) ---
 # The pre-relaunch site used these URLs and Google still indexes them; they now
 # 404 with no redirect, so brand/referral searches land on dead pages (and a

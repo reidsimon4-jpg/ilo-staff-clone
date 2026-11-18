@@ -573,6 +573,8 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (scrollY < heroHeight * 0.5) {
                 stickyCta.classList.remove('visible');
             }
+            // lets the WhatsApp bubble step aside while the bar is showing (see styles.css)
+            document.body.classList.toggle('sticky-cta-on', stickyCta.classList.contains('visible'));
             lastScroll = scrollY;
         }, { passive: true });
     }
