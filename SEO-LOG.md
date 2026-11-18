@@ -135,3 +135,7 @@ Next: backlog item 14(a) (new article on a topic buyers or builders search for).
 2026-11-17: Backlog item 14(a) done. New article "Steel Frame vs Timber Frame for a Bali Villa" (about 850 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article compared steel with timber framing. Only facts already on the site. Note: the run again started from a stale local branch and redid item 1; that was discarded.
 Files: article-steel-vs-timber-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or index.html).
+
+2026-11-18: Backlog item 14(b) done. Older-page pass on the homepage and /structural: both linked to no articles. Added a Related Reading section to / (cost, choosing a builder, durability, timeline) and a Further Reading section to /structural (frame kit package, multi-villa developments, earthquake). No new facts. Note: merged main into seo-improvements (rebase hit conflicts on 20+ commits and would need a force push); conflicts resolved keeping both lazy-load and width/height on images.
+Files: index.html, structural.html, SEO-LOG.md
+Next: backlog item 14(a) (new article on a topic buyers or builders search for).
