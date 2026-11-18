@@ -578,6 +578,11 @@ section {
   text-align: center;
 }
 
+/* Stats bars with three tiles */
+.stats-grid.stats-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .stat-item .stat-number {
   font-family: var(--font-heading);
   font-size: clamp(2.5rem, 4vw, 3.5rem);
@@ -1152,6 +1157,14 @@ section {
     gap: 24px;
   }
 
+  .stats-grid.stats-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-grid.stats-grid-3 .stat-item:last-child {
+    grid-column: 1 / -1;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -1187,6 +1200,10 @@ section {
 
 @media (max-width: 480px) {
   .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid.stats-grid-3 {
     grid-template-columns: 1fr;
   }
 }
@@ -1689,7 +1706,8 @@ section {
 /* --- Sticky Bottom CTA Bar --- */
 .sticky-cta {
   position: fixed;
-  bottom: -80px;
+  bottom: 0;
+  transform: translateY(105%);
   left: 0;
   right: 0;
   z-index: 800;
@@ -1698,11 +1716,11 @@ section {
   -webkit-backdrop-filter: blur(20px);
   border-top: 1px solid var(--color-border);
   padding: 12px 0;
-  transition: bottom var(--transition-base);
+  transition: transform var(--transition-base);
 }
 
 .sticky-cta.visible {
-  bottom: 0;
+  transform: translateY(0);
 }
 
 .sticky-cta .container {
@@ -2628,3 +2646,82 @@ button:focus-visible, input[type="range"]:focus-visible {
   margin-right: 6px;
 }
 @media (max-width: 640px) { .reel-card { flex-basis: 62vw; } }
+
+/* ============================================================
+   Bottom bar, WhatsApp bubble and phone tap targets (Nov 2026)
+   ============================================================ */
+/* One WhatsApp button at a time: the bubble steps aside while the bottom bar is showing */
+.floating-whatsapp {
+  transition: opacity var(--transition-base), visibility var(--transition-base);
+}
+
+body.sticky-cta-on .floating-whatsapp {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+/* Room at the end of the page so the bottom bar never covers the footer's last line */
+.footer {
+  padding-bottom: 112px;
+}
+
+/* Testimonial dots: same look, bigger touch area */
+.testimonials-nav button {
+  position: relative;
+}
+
+.testimonials-nav button::after {
+  content: "";
+  position: absolute;
+  inset: -16px -6px;
+}
+
+@media (max-width: 768px) {
+  /* Bottom bar on phones: just the two buttons in one row */
+  .sticky-cta {
+    padding: 10px 0;
+  }
+
+  .sticky-cta-text {
+    display: none;
+  }
+
+  /* Home page first screen: keep the animation caption below the buttons, not on top of them */
+  .hero-3d {
+    padding-bottom: 140px;
+  }
+
+  .hero3d-hud {
+    bottom: 24px;
+  }
+
+  /* Tap targets of at least 44px */
+  .nav-toggle {
+    padding: 14px 10px;
+    margin: -6px -2px;
+  }
+
+  .seg {
+    min-height: 44px;
+  }
+
+  .card > a {
+    padding: 10px 0;
+    margin-top: 6px !important;
+  }
+
+  .footer-links {
+    gap: 0;
+  }
+
+  .footer-links a {
+    display: block;
+    padding: 10px 0;
+  }
+
+  .footer-socials a {
+    width: 44px;
+    height: 44px;
+  }
+}
