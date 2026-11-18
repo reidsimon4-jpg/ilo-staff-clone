@@ -317,8 +317,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const amountSubEl = document.getElementById('cfgAmountSub');
         const tierDescEl = document.getElementById('cfgTierDesc');
         const timeEl = document.getElementById('cfgTime');
-        const timeTradEl = document.getElementById('cfgTimeTrad');
-        const timeSavedEl = document.getElementById('cfgTimeSaved');
         const steelEl = document.getElementById('cfgSteel');
         const waBtn = document.getElementById('cfgWhatsApp');
         const configField = document.getElementById('cfgConfigField');
@@ -371,16 +369,12 @@ document.addEventListener('DOMContentLoaded', () => {
             if (amountSubEl) amountSubEl.textContent = '≈ ' + fmtRangeIn(currency === 'IDR' ? 'AUD' : 'IDR', lo, hi);
             if (tierDescEl) tierDescEl.textContent = TIER_DESC[tier];
 
-            // Timeline: panelised LGS vs conventional (2–3× faster claim → 2.4×)
+            // Timeline: ILO build-time estimate for the chosen stage and size
             const tierSpeed = { structure: 80, shell: 55, turnkey: 40, premium: 36 };
             const baseWeeks = { structure: 3, shell: 5, turnkey: 7, premium: 8 };
             const speedFactor = type === 'commercial' ? 1.25 : 1;
             const lgsWeeks = Math.ceil(baseWeeks[tier] + total / (tierSpeed[tier] * speedFactor));
-            const tradWeeks = Math.ceil(lgsWeeks * 2.4);
-            const monthsSaved = Math.max(1, Math.round((tradWeeks - lgsWeeks) / 4.33));
             if (timeEl) timeEl.textContent = '~' + lgsWeeks + ' wks';
-            if (timeTradEl) timeTradEl.textContent = '~' + tradWeeks + ' wks';
-            if (timeSavedEl) timeSavedEl.textContent = monthsSaved + (monthsSaved === 1 ? ' month' : ' months');
 
             // Frame steel ~10 kg/m² of floor area
             const tonnes = (total * 10) / 1000;

@@ -578,6 +578,11 @@ section {
   text-align: center;
 }
 
+/* Stats bars with three tiles */
+.stats-grid.stats-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .stat-item .stat-number {
   font-family: var(--font-heading);
   font-size: clamp(2.5rem, 4vw, 3.5rem);
@@ -1152,6 +1157,14 @@ section {
     gap: 24px;
   }
 
+  .stats-grid.stats-grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-grid.stats-grid-3 .stat-item:last-child {
+    grid-column: 1 / -1;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -1187,6 +1200,10 @@ section {
 
 @media (max-width: 480px) {
   .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-grid.stats-grid-3 {
     grid-template-columns: 1fr;
   }
 }
