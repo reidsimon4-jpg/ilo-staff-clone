@@ -139,3 +139,7 @@ Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or 
 2026-11-18: Backlog item 14(b) done. Older-page pass on the homepage and /structural: both linked to no articles. Added a Related Reading section to / (cost, choosing a builder, durability, timeline) and a Further Reading section to /structural (frame kit package, multi-villa developments, earthquake). No new facts. Note: merged main into seo-improvements (rebase hit conflicts on 20+ commits and would need a force push); conflicts resolved keeping both lazy-load and width/height on images.
 Files: index.html, structural.html, SEO-LOG.md
 Next: backlog item 14(a) (new article on a topic buyers or builders search for).
+
+2026-11-19: Backlog item 14(a) done. New article "Heat, Insulation and Noise in a Steel Frame Villa" (about 950 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article covered heat, insulation and noise. Only facts already on the site.
+Files: article-heat-insulation-steel-frame-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or about.html).

@@ -210,4 +210,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.ilo.net.au/article-heat-insulation-steel-frame-bali</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
