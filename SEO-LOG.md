@@ -147,3 +147,7 @@ Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or 
 2026-11-20: Backlog item 14(b) done. Older-page pass on five articles that linked to few or no other articles: added a Related reading list (4 links each) to architecture-prefab, build-timeline, lgs-vs-traditional, frame-kit-package and villa-cost. No new facts.
 Files: article-architecture-prefab.html, article-build-timeline.html, article-lgs-vs-traditional.html, article-frame-kit-package.html, article-villa-cost-bali.html, SEO-LOG.md
 Next: backlog item 14(a) (new article on a topic buyers or builders search for).
+
+2026-11-21: Backlog item 14(a) done. New article "Building a Villa in Lombok with a Steel Frame" (about 950 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article covered Lombok, though the site serves it. Only facts already on the site.
+Files: article-lombok-steel-frame-villa.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or lgs.html).
