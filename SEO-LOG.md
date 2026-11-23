@@ -155,3 +155,7 @@ Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or 
 2026-11-22: Backlog item 14(b) done. Older-page pass on /bali (the main target page): added a Related Reading section with six article links (it linked to only two). Also added Related reading lists (4 links each) to the sustainability, earthquake, tropical durability and prefab vs modular articles, which had few links to other articles. No new facts.
 Files: bali.html, article-sustainability.html, article-earthquake-bali.html, article-tropical-durability.html, article-prefab-vs-modular-lgs-bali.html, SEO-LOG.md
 Next: backlog item 14(a) (new article on a topic buyers or builders search for).
+
+2026-11-23: Backlog item 14(a) done. New article "Hybrid Steel: LGS with Heavier Beams in Bali" (about 930 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article explained hybrid LGS with WF, SHS and RHS members, which /structural mentions. Only facts already on the site. Note: the run again started from a stale local branch and redid item 1; that was discarded (reset to origin/seo-improvements).
+Files: article-hybrid-steel-lgs-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
+Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or lgs.html).
