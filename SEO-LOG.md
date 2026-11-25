@@ -163,3 +163,7 @@ Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or 
 2026-11-24: Backlog item 14a done. New article on fire safety in a steel frame villa, with FAQ schema.
 Files: article-fire-safety-steel-frame-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Note: items 2-13 were already done by earlier runs (see git history); log was not updated then.
+
+2026-11-25: Backlog item 14(b) done. Older-page pass on /lgs (the main "what is LGS" page): it linked to only three articles. Added a Related Reading section with six article links (earthquake, roof trusses, hybrid steel, steel vs timber, fire safety, services). No new facts.
+Files: lgs.html, SEO-LOG.md
+Next: backlog item 14(a) (new article on a topic buyers or builders search for).
