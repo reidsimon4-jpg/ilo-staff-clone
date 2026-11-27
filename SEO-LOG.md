@@ -171,3 +171,7 @@ Next: backlog item 14(a) (new article on a topic buyers or builders search for).
 2026-11-26: Backlog item 14(a) done. New article "Building a Villa in Bali From Overseas" (about 1,000 words) with FAQ and FAQPage schema; linked from articles.html; added to sitemap and llms.txt. Gap found: no article for owners who live abroad. Only facts already on the site.
 Files: article-build-villa-from-overseas-bali.html, articles.html, sitemap.xml, llms.txt, SEO-LOG.md
 Next: backlog item 14(b) (improvement pass on an older page, e.g. links.html or benefits.html).
+
+2026-11-27: Backlog item 14(b) done. Older-page pass on /projects: added four more article links to its Related Reading section (rental villa investors, cafés and small hotels, tight plots, building from overseas). No new facts.
+Files: projects.html, SEO-LOG.md
+Next: backlog item 14(a) (new article on a topic buyers or builders search for).
